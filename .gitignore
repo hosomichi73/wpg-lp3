@@ -1,0 +1,9 @@
+.env
+.env.local
+.vercel
+node_modules
+.DS_Store
+
+# source reference material, not part of the deployed site
+wpg_LP③.png
+lp構造化指示書③.rtf
