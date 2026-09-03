@@ -263,6 +263,13 @@
   }
   .gallery-card:hover{transform:scale(1.03);}
   .gallery-card:hover .overlay{background:linear-gradient(180deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.4) 100%);}
+  .gallery-card:hover img{transform:scale(1.08);}
+  .gallery-card img{
+    position:absolute;inset:0;
+    width:100%;height:100%;
+    object-fit:cover;
+    transition:transform .4s ease;
+  }
   .gallery-card .overlay{
     position:absolute;inset:0;
     background:linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 100%);
@@ -521,39 +528,48 @@
     <p class="caption-text fade-up fs-14" style="margin-top:8px;letter-spacing:0.15em;">DESIGN WORKS</p>
 
     <div class="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4" style="margin-top:40px;">
-      <a href="https://4phat.com/works/visual" target="_blank" rel="noopener" class="gallery-card fade-up" style="background:linear-gradient(135deg,#2b2b2b,#000);">
+      <a href="https://4phat.com/works/visual" target="_blank" rel="noopener" class="gallery-card fade-up">
+        <img src="assets/gallery/WPG_LP_02-visual.jpg" alt="ビジュアル制作実績" loading="lazy">
         <div class="overlay"></div>
         <div class="label"><div class="jp">ビジュアル</div><div class="en">VISUAL</div></div>
       </a>
-      <a href="https://4phat.com/works/goods" target="_blank" rel="noopener" class="gallery-card fade-up" style="background:linear-gradient(135deg,#1f1f1f,#000);">
+      <a href="https://4phat.com/works/goods" target="_blank" rel="noopener" class="gallery-card fade-up">
+        <img src="assets/gallery/WPG_LP_01-goods.jpg" alt="グッズ制作実績" loading="lazy">
         <div class="overlay"></div>
         <div class="label"><div class="jp">グッズ</div><div class="en">GOODS</div></div>
       </a>
-      <a href="https://4phat.com/works/ad" target="_blank" rel="noopener" class="gallery-card fade-up" style="background:linear-gradient(135deg,#262626,#050505);">
+      <a href="https://4phat.com/works/ad" target="_blank" rel="noopener" class="gallery-card fade-up">
+        <img src="assets/gallery/WPG_LP_03-ad.jpg" alt="広告制作実績" loading="lazy">
         <div class="overlay"></div>
         <div class="label"><div class="jp">広告</div><div class="en">AD</div></div>
       </a>
-      <a href="https://4phat.com/works/music" target="_blank" rel="noopener" class="gallery-card fade-up" style="background:linear-gradient(135deg,#232323,#000);">
+      <a href="https://4phat.com/works/music" target="_blank" rel="noopener" class="gallery-card fade-up">
+        <img src="assets/gallery/WPG_LP_04-music.jpg" alt="音楽制作実績" loading="lazy">
         <div class="overlay"></div>
         <div class="label"><div class="jp">音楽</div><div class="en">MUSIC</div></div>
       </a>
-      <a href="https://4phat.com/works/musical" target="_blank" rel="noopener" class="gallery-card fade-up" style="background:linear-gradient(135deg,#2a2a2a,#050505);">
+      <a href="https://4phat.com/works/musical" target="_blank" rel="noopener" class="gallery-card fade-up">
+        <img src="assets/gallery/WPG_LP_05-musical.jpg" alt="舞台・ミュージカル制作実績" loading="lazy">
         <div class="overlay"></div>
         <div class="label"><div class="jp">舞台・ミュージカル</div><div class="en">STAGE / MUSICAL</div></div>
       </a>
-      <a href="https://4phat.com/works/costume" target="_blank" rel="noopener" class="gallery-card fade-up" style="background:linear-gradient(135deg,#1c1c1c,#000);">
+      <a href="https://4phat.com/works/costume" target="_blank" rel="noopener" class="gallery-card fade-up">
+        <img src="assets/gallery/WPG_LP_06-costume.jpg" alt="衣装制作実績" loading="lazy">
         <div class="overlay"></div>
         <div class="label"><div class="jp">衣装制作</div><div class="en">COSTUME</div></div>
       </a>
-      <a href="https://4phat.com/works/logo-character" target="_blank" rel="noopener" class="gallery-card fade-up" style="background:linear-gradient(135deg,#242424,#000);">
+      <a href="https://4phat.com/works/logo-character" target="_blank" rel="noopener" class="gallery-card fade-up">
+        <img src="assets/gallery/WPG_LP_07-logo_character.jpg" alt="ロゴ・キャラクター制作実績" loading="lazy">
         <div class="overlay"></div>
         <div class="label"><div class="jp">ロゴ・キャラクター</div><div class="en">LOGO / CHARACTER</div></div>
       </a>
-      <a href="https://4phat.com/works/sports" target="_blank" rel="noopener" class="gallery-card fade-up" style="background:linear-gradient(135deg,#282828,#050505);">
+      <a href="https://4phat.com/works/sports" target="_blank" rel="noopener" class="gallery-card fade-up">
+        <img src="assets/gallery/WPG_LP_08-sports.jpg" alt="スポーツ制作実績" loading="lazy">
         <div class="overlay"></div>
         <div class="label"><div class="jp">スポーツ</div><div class="en">SPORTS</div></div>
       </a>
-      <a href="https://4phat.com/works/other" target="_blank" rel="noopener" class="gallery-card fade-up" style="background:linear-gradient(135deg,#202020,#000);">
+      <a href="https://4phat.com/works/other" target="_blank" rel="noopener" class="gallery-card fade-up">
+        <img src="assets/gallery/WPG_LP_09-other.jpg" alt="その他制作実績" loading="lazy">
         <div class="overlay"></div>
         <div class="label"><div class="jp">その他</div><div class="en">OTHER</div></div>
       </a>

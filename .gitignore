@@ -7,3 +7,6 @@ node_modules
 # source reference material, not part of the deployed site
 wpg_LP③.png
 lp構造化指示書③.rtf
+
+# original full-resolution gallery photos (unused directly; optimized copies live in assets/gallery/)
+assets/WPG_LP_0*.png
