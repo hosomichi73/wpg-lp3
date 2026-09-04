@@ -1,0 +1,6 @@
+{
+  "name": "wpg-lp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WHITE Phat Graphics LP (static site + Vercel serverless contact form)"
+}
